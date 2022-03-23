@@ -1,5 +1,4 @@
 # amal-profile
-Amal's CV
 Made my first website as developer. It was very helpful to see a sort of real-life sample instead of those simplified versions for beginners!
 
 •	First I wrote the HTML code to define the structure and contents of my web page – where things go, how they are laid out, and what’s on the page.
