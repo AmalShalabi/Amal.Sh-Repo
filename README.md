@@ -24,7 +24,7 @@ I used :
 
 ## Installing <amal-profile>
 
-To install <amal-rofle>, follow these steps:
+To install <amal-profile>, follow these steps:
 
 Use Linux and macOS:
 ```
@@ -35,7 +35,9 @@ Windows:
 ```
 <command>
 
+
 ## Contact
+
 
 If you want to contact me you can reach me at <mouni.shalaby@gmail.com>.
 
