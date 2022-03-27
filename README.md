@@ -17,8 +17,10 @@ There are four different techniques to create multicolumn layouts. Each techniqu
 *	CSS float property
 *	CSS flexbox
 *	CSS grid
-I used :
-1-CSS Flexbox Layout that ensures that elements behave predictably when the page layout must accommodate different screen sizes and different display devices.
+
+
+### I used :
+1-  CSS Flexbox Layout that ensures that elements behave predictably when the page layout must accommodate different screen sizes and different display devices.
 2- CSS Grid Layout that offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
 
 
@@ -34,7 +36,7 @@ Use Linux and macOS:
 Windows:
 ```
 <command>
-
+```
 
 ## Contact
 
