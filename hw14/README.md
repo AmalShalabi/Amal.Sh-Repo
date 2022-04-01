@@ -1,19 +1,7 @@
-# JavaScript Arrays 
-An array is a special variable, which can hold more than one value:
-
-const fruits = ["Mango", "Apple", "Orange"];
-
-## Why Use Arrays?
-However,  if we want to loop through the Grades and find a specific one,
-for example : if we have 300 grades
-
-The solution is an array!
-
-An array can hold many values under a single name, and we can access the values by referring to an index number.
-
 # I Solve This Exercise By :
+
 ## Accessing Array Elements
-You access an array element by referring to the  **index number:**
+We access an array element by referring to the  **index number:**
 
 ```
 let grade=grades[0];
@@ -46,7 +34,7 @@ document.write(" The Names that the most I  like Are: " +  text);
 
 ### Link
 
-[For more visit w3schools](https://www.w3schools.com/js/js_arrays.asp)
+[For more, visit w3schools](https://www.w3schools.com/js/js_arrays.asp)
 
 
 
