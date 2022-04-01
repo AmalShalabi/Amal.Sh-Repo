@@ -1,6 +1,6 @@
 # I Solve This Exercise By :
 
-## Accessing Array Elements
+## 1- Accessing Array Elements
 I access an array element by referring to the  **index number:**
 
 ```
@@ -8,7 +8,7 @@ let grade=grades[0];
 let grade=grades[105];
 ```
 
-## The length Property
+## 2- The length Property
 
 The **length property** of an array returns the length of an array (the number of array elements).
  ### Example :
@@ -17,7 +17,7 @@ const fruits = ["Banana", "Orange", "Apple", "Mango"];
 let length = fruits.length;
 ```
 
-## Looping Array Elements
+## 3- Looping Array Elements
 For example , to loop through an array, is using a for loop:
 
 ```
