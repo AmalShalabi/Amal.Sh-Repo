@@ -1,7 +1,7 @@
 # I Solve This Exercise By :
 
 ## Accessing Array Elements
-We access an array element by referring to the  **index number:**
+I access an array element by referring to the  **index number:**
 
 ```
 let grade=grades[0];
