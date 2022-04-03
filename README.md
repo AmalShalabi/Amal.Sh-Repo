@@ -30,8 +30,7 @@ To install <amal-profile>, follow these steps:
 
 Use Linux and macOS:
 ```
-$ git clone https://github.com/YOUR-USERNAME/YOUR-REPOSITORY
-https://github.com/Fullstack-Alfanar/amal-profile.git
+git clone https://github.com/Fullstack-Alfanar/amal-profile.git
 ```
 
 
