@@ -1,4 +1,4 @@
-# amal-profile
+# Amal.Sh-profile
 Made my first website as developer. It was very helpful to see a sort of real-life sample instead of those simplified versions for beginners!
 
 First I wrote the HTML code to define the structure and contents of my web page – where things go, how they are laid out, and what’s on the page. Then I wrote  the CSS/SASS  to define the styling of a web page and the elements on it. At the end, I made it responsive website that will work on all devices, PC, laptop, tablet, and phone.
