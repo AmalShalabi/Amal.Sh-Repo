@@ -39,16 +39,7 @@ for (let i = shtroudel[shtroudel.length - 1]; i < email.length; i++) {
   if (email[i] == "_") Valid = false;
 }
 
-if (
-  domain[0] == 0 &&
-  shtroudel[shtroudel.length - 1] - 1 == domain[domain.length - 1]
-) {
-  Forbbiden = true;
-}
 
-if (shtroudel.length != 1 || Forbbiden) {
-  Valid = false;
-}
 if (marks || Forbbiden) Valid = false;
 if (shtroudel[shtroudel.length - 1] >= 63) Valid = false;
 
