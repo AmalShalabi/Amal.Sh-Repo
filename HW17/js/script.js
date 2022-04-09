@@ -1,7 +1,5 @@
 function validation(email){
-  let shtroudel=[];
-  let domain=[];
-  let marks=false;
+  let shtroudel=[], domain=[],marks=false;
   let Valid=true;
   let Forbbiden=false;
 
