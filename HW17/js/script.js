@@ -7,7 +7,7 @@ function validation(email) {
         return false;
     }
     else {
-      alert("Thanks for your intrest in us, Now you ,will be able to receive monthly updates from us.");
+      alert("Thanks for registering with us!");
         document.getElementById('email').value = "";
     }
  }
