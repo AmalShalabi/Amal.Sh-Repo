@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;400;700&display=swap');
+
+*
+{
+    margin:0;
+    padding:0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height:100vh;
+    background: #f8f7fc;
+}
+h1{
+    font-size: 2em;
+    color: #ff0707;
+    font-weight:2em;
+    margin-bottom: 1em;
+}
+
+
+
+#email,#i_d,#fname,#age{
+    color:rgb(9, 9, 73);
+    font-weight: 2.5em;
+    padding-left:  1.2em; 
+    background-color: rgb(241, 226, 226);
+    padding: 0.4em;
+    border-radius: 5px;
+}
+
+button{
+    background: rgb(250, 3, 3);
+    color: white;
+    padding: 0.5em 1em;
+    font-size: 1em;
+    margin-top:  0.5em;
+    border-radius: 6px;
+}
+
+img{
+    width: 250px;
+    bottom: 40px;
+}

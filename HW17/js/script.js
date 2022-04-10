@@ -1,48 +1,15 @@
-function validation(email){
-  let shtroudel=[], domain=[],marks=false;
-  let Valid=true;
-  let Forbbiden=false;
-
-
-  for (let i = 0; i < email.length; i++) {
-      if (email[i] == "@") {
-        shtroudel.push(i);
-      }
-  
-      if (email[i] == '"') {
-          domain.push(i);
-      }
+function validation(email) {
+  var email = document.getElementById('email');
+  var filter = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+    if (!filter.test(email.value)) {
+        alert('Please provide a valid email address');
+        email.focus;
+        return false;
     }
-
-    for (let i = 0; i < shtroudel[shtroudel.length - 1]; i++) {
-      if (
-        email[i] == "[" ||
-        email[i] == "]" ||
-        email[i] == '"' ||
-        email[i] == "," ||
-        email[i] == ":" ||
-        email[i] == ";" ||
-        email[i] == "<" ||
-        email[i] == ">" ||
-        email[i] == "(" ||
-        email[i] == ")" ||
-        email[i] == "\\" ||
-        email[i] == " "
-      ) {
-          marks = true;
-      }
+    else {
+      alert("Thanks for your intrest in us, Now you ,will be able to receive monthly updates from us.");
+        document.getElementById('email').value = "";
     }
+ }
 
-for (let i = shtroudel[shtroudel.length - 1]; i < email.length; i++) {
-  if (email[i] == "_") Valid = false;
-}
-
-
-if (marks || Forbbiden) Valid = false;
-if (shtroudel[shtroudel.length - 1] >= 63) Valid = false;
-
-return console.log(Valid);
-
-
-
-}
+ console.log(validation(email));
