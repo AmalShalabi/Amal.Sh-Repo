@@ -5,10 +5,10 @@ function validDetails() {
   var x4 = document.getElementById("email").value;
 
 
-  ValidateName(x1);
-  ValidateAge(x2);
-  ValidateID(x3);
-  ValidateEmail(x4);
+  Console.log(ValidateName(x1));
+  Console.log(ValidateAge(x2));
+  Console.log(ValidateID(x3));
+  Console.log(ValidateEmail(x4));
 
 
 }
