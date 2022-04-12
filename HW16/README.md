@@ -1,3 +1,4 @@
+
 # Home Work No. 6
 
 ## Functions
@@ -25,3 +26,4 @@ function myFunction(x, y) {
   return arguments.length;
 }
 ```
+
