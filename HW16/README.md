@@ -1,3 +1,4 @@
+
 # Home Work No. 6
 
 ## Functions
@@ -5,7 +6,8 @@ We can either write our own functions, or use a pre-written set of functions in 
 
 # I Used Function As:
 
-### 1-Functions As Values:
+*  Functions As Values:
+JavaScript functions can be used as values:
 
 ### Example :
 ```
@@ -15,7 +17,7 @@ function myFunction(x, y) {
 
 let a = myFunction(4, 3);
 ```
-### 2-Functions As Objects
+* Functions AS Objects
 The typeof operator in JavaScript returns "function" for functions. But, JavaScript functions can best be described as objects.JavaScript functions have both properties and methods.The arguments.length property returns the number of arguments received when the function was invoked:
 
 ### Example :
@@ -24,3 +26,4 @@ function myFunction(x, y) {
   return arguments.length;
 }
 ```
+
