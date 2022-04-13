@@ -1,0 +1,90 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+
+body {
+    background-image: url(/style/images/undergraduate.png);
+    background-repeat: no-repeat;
+    background-position: right top;
+    margin-right: 180px;
+    font-family: 'Poppins', sans-serif;
+
+}
+
+h1 {
+    font-size: 1.6em;
+    margin-top: 3em;
+    line-height: 3.3rem;
+    text-align: center;
+    color: darkblue;
+}
+
+input {
+    padding: 1em;
+    margin-bottom: 1em;
+    border-radius: .3em;
+    border: 1px solid gray;
+    box-sizing: border-box;
+    margin: 2em 2.2em;
+}
+
+button {
+    background-color: rgb(243, 228, 11);
+    color: rgb(34, 6, 100);
+    font-weight: bold;
+    font-size: 1em;
+    border: none;
+    border-radius: 3em;
+    padding: .8em 2em;
+    cursor: pointer;
+}
+
+.divbox,
+.input_box{
+    display: flex;
+    align-items: center;
+    margin-left: 230px;
+    
+}
+table{
+    align-items: center;
+    margin:18px 350px;
+    text-align: center;
+
+    
+}
+thead{
+    font-weight: bold;
+    color: darkblue;
+}
+
+td{
+    margin-left: 5em;
+
+}
+
+#avg_students,
+#num_students {
+    background: #006BD6;
+    text-align: center;
+    color: white;
+    padding: 1em 1em;
+    width: 20%;
+    margin: 0 1em;
+    border-radius: 1em;
+}
+
+.divbox,
+.input_box, h1,table {
+            animation: fadeIn 2s forwards;
+  }
+
+  
+  @keyframes fadeIn {
+    from {
+      opacity: 0;
+              transform: translateY(-2em);
+    }
+    to {
+      opacity: 1;
+              transform: translateY(0);
+    }
+  }
