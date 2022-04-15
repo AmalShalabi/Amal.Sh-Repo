@@ -1,3 +1,5 @@
+ var counter = 0, sum = 0;
+
 function gcollege() {
     let data = [];
     data[0] = document.getElementById("sname");
@@ -50,7 +52,6 @@ function gcollege() {
         //Value for each element in each div
         // filling students' names & grades in the table
 
-        var counter = 0, sum = 0;
 
         sum += Number.parseInt(data[1].value);
         counter++;
