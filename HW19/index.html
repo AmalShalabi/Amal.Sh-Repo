@@ -16,15 +16,26 @@
         <input id="sgrade" type="text" placeholder="Student's Grade">
         <button Onclick="gcollege()">Send</button>
     </div>
-    <div class="divbox">
-        <div id="avg_students"> The Average</div>
-        <div id="num_students"> No. Of Students</div>
+    <div class="table1">
+        <table >
+            <thead >
+                <tr class="tfrow">
+                    <td class="frow" >The Average</td>
+                    <td class="frow">No. Of Students</td>
+                </tr>
+            </thead>
+            <tbody>
+                <td id="avg_students">0</td>
+                <td  id="num_students">0</td>
+            </tbody>
+        </table>
+
     </div>
-    <table>
-        <thead>
-            <tr>
-                <td>Student's Name :  </td>
-                <td>Student's Grade:  </td>
+    <table class="sstable" >
+        <thead class="maint">
+            <tr  >
+                <td class="nrow">Student's Name </td>
+                <td class="nrow">Student's Grade</td>
             </tr>
         </thead>
         <tbody id="stable">
