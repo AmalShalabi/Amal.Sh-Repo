@@ -10,20 +10,26 @@ body {
 }
 
 h1 {
-    font-size: 1.6em;
+    font-size: 2em;
     margin-top: 3em;
     line-height: 3.3rem;
     text-align: center;
     color: darkblue;
+    margin-right: 300px;
+    
 }
+
 
 input {
     padding: 1em;
     margin-bottom: 1em;
-    border-radius: .3em;
-    border: 1px solid gray;
-    box-sizing: border-box;
+    border-radius: .5em;
+    border: 1px solid rgb(46, 10, 250);
     margin: 2em 2.2em;
+    background-color: rgb(228, 227, 245);
+    font-size: 1em;
+    font-weight: bolder;
+    text-align: center;
 }
 
 button {
@@ -37,54 +43,105 @@ button {
     cursor: pointer;
 }
 
-.divbox,
-.input_box{
+.table1,
+.input_box {
     display: flex;
     align-items: center;
-    margin-left: 230px;
-    
-}
-table{
-    align-items: center;
-    margin:18px 350px;
+    margin-left: 130px;
     text-align: center;
 
-    
-}
-thead{
-    font-weight: bold;
-    color: darkblue;
 }
 
-td{
-    margin-left: 5em;
+.frow {
+    margin: 1em;
+    padding: .3em 1em;
+    border: 2px solid rgb(18, 97, 243);
+    border-radius: 20px 20px 20px 20px;
+    font-size: 1.3em;
+    margin-left: 65px;
 
+}
+
+tr {
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px rgb(75, 73, 73) solid;
+
+}
+
+.tfrow{
+    border-bottom: white;
+    border-top: white;
 }
 
 #avg_students,
 #num_students {
-    background: #006BD6;
-    text-align: center;
+    background: #050599;
     color: white;
-    padding: 1em 1em;
-    width: 20%;
-    margin: 0 1em;
-    border-radius: 1em;
+    padding: 5px 5px;
+    border-radius: 5px;
+    font-size: 1em;
+    text-align: center;
+    margin-left: 10px;
+
+
 }
 
-.divbox,
-.input_box, h1,table {
-            animation: fadeIn 2s forwards;
-  }
 
-  
-  @keyframes fadeIn {
+
+table {
+    margin: 10px 0 0 25px;
+    text-align: center;
+
+}
+
+
+.sstable{
+    margin: 30px 0 0 125px;
+
+
+}
+
+thead {
+    font-weight: bolder;
+    color: darkblue;
+
+
+}
+
+.nrow {
+    margin: 1em;
+    padding: 0 1em;
+    border-radius: 20px 20px 20px 20px;
+    font-size: 1em;
+    margin-left: 150px;
+
+
+}
+.maint{
+    background-color: cornflowerblue;
+    text-decoration: underline;
+    margin-right: 100px;
+}
+
+.divbox1,
+.input_box,
+h1,
+table {
+    animation: fadeIn 2s forwards;
+}
+
+
+
+
+@keyframes fadeIn {
     from {
-      opacity: 0;
-              transform: translateY(-2em);
+        opacity: 0;
+        transform: translateY(-2em);
     }
+
     to {
-      opacity: 1;
-              transform: translateY(0);
+        opacity: 1;
+        transform: translateY(0);
     }
-  }
+}
