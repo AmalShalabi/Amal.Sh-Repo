@@ -4,9 +4,9 @@ function gcollege() {
     let data = [];
     data[0] = document.getElementById("sname");
     data[1] = document.getElementById("sgrade");
-    Avg_s= document.getElementById("avg_students");
-    Count_s = document.getElementById("num_students");
-    tables = document.getElementById("stable");
+    let Avg_s= document.getElementById("avg_students");
+    let Count_s = document.getElementById("num_students");
+    let tables = document.getElementById("stable");
 
     if (data[0].value == "" || data[0].value == null || data[1].value > 100 || data[1].value < 0) {
 
