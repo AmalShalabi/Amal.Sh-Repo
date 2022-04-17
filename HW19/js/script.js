@@ -1,12 +1,12 @@
- var counter = 0, sum = 0;
+var counter = 0, sum = 0;
 
 function gcollege() {
     let data = [];
     data[0] = document.getElementById("sname");
     data[1] = document.getElementById("sgrade");
-    Avg_s= document.getElementById("avg_students");
-    Count_s = document.getElementById("num_students");
-    tables = document.getElementById("stable");
+    let Avg_s = document.getElementById("avg_students");
+    let Count_s = document.getElementById("num_students");
+    let tables = document.getElementById("stable");
 
     if (data[0].value == "" || data[0].value == null || data[1].value > 100 || data[1].value < 0) {
 
@@ -19,12 +19,7 @@ function gcollege() {
         let student_name = document.createElement('label');
         let student_grade = document.createElement('label');
 
-     /*   //div's data
-        let avg_label = document.createElement('label');
-        let counter_label = document.createElement('label');
-        let avg_div = document.createElement('div');
-        let counter_div = document.createElement('div');
-*/
+
 
         //tables' data
         let student_tname = document.createElement('td');
