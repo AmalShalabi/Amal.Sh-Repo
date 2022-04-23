@@ -9,7 +9,7 @@
   This file contains the base HTML code that has all the elements defined for the webpage.
 * ### CSS
 This file contains the CSS styles that are needed for styling the HTML elements in the webpage. The styles are self-explanatory and you are free to use or change these styles according to your preference.
-##### I set CSS style only to localsorage part. 
+### I set CSS style only to localsorage part. 
 
 * ### Javascript
 There are 2 files contains the JavaScript code  . Just The Localstorage file is linked with html file.
@@ -37,7 +37,7 @@ localStorage is similar to sessionStorage, except that while data stored in loca
 
 #### The keys and the values are always strings (note that, as with objects, integer keys will be automatically converted to strings).
 
-### Setting item to the localStorage
+### Setting item to the localStorage:
 
 When we set data to be stored in a localStorage, it will be stored as a string. If we are storing an array or an object, we should stringify it first to keep the format unless otherwise we lose the array structure or the object structure of the original data.
 
@@ -47,7 +47,7 @@ We store data in the localStorage using the localStorage.setItem method :
 //syntax
 localStorage.setItem('key', 'value')
 ```
-### Getting item from localStorage
+### Getting item from localStorage:
 
 We get data from the local storage using _localStorage.getItem()_ method.
 
