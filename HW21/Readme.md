@@ -1,7 +1,6 @@
 # HW NO. 21
 
-# Assingment about #
- ### CallBack ,  addEventListener and JSON:
+# Assingment about: CallBack ,  addEventListener and JSON:
 
  ### The repo contains:
 
@@ -32,7 +31,7 @@ Cookies are saved in name-value pairs like:
 username = Amal Shalabi
 ```
 
-* ### localStorage
+* ### localStorage:
 localStorage is similar to sessionStorage, except that while data stored in localStorage has no expiration time, data stored in sessionStorage gets cleared when the page session ends — that is, when the page is closed.
 
 #### The keys and the values are always strings (note that, as with objects, integer keys will be automatically converted to strings).
