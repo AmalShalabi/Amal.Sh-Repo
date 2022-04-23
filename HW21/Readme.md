@@ -11,15 +11,13 @@ This file contains the CSS styles that are needed for styling the HTML elements 
 #### I set CSS style only to localsorage part
 
 * ### 3- Javascript
-There are 2 files contains the JavaScript code  . Just The Localstorage file is linked with html file.
+There are 3 files contains the JavaScript code  . Just The Localstorage file is linked with html file.
 
-
+# StoringData
 The data being stored can be accessed using JavaScript, which gives us the ability to leverage client-side scripting to do many things that have traditionally involved server-side programming and relational databases. In this Assingment, I used Web Storage objects:
 
-* ### JavaScript Cookies
-
+* ### A- JavaScript Cookies:
 Cookies are data, stored in small text files, on our computer.
-
 When a web server has sent a web page to a browser, the connection is shut down, and the server forgets everything about the user.
 Cookies were invented to solve the problem "how to remember information about the user":
 
@@ -31,7 +29,7 @@ Cookies are saved in name-value pairs like:
 username = Amal Shalabi
 ```
 
-* ### localStorage:
+* ### B-localStorage:
 localStorage is similar to sessionStorage, except that while data stored in localStorage has no expiration time, data stored in sessionStorage gets cleared when the page session ends — that is, when the page is closed.
 
 #### The keys and the values are always strings (note that, as with objects, integer keys will be automatically converted to strings).
