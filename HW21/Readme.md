@@ -1,12 +1,9 @@
 # HW NO. 21
 
-
-Validating email is a very important point while validating an HTML form.  An email is a string or a subset of ASCII characters that are separated into two parts by “@” symbol.
-
 # Assingment about #
- ### CallBack ,  Eventlister and JSON:
+ ### CallBack ,  addEventListener and JSON:
 
- ### The repo contains
+ ### The repo contains:
 
 * ### html
   This file contains the base HTML code that has all the elements defined for the webpage.
@@ -20,7 +17,7 @@ There are 2 files contains the JavaScript code  . Just The Localstorage file is 
 
 The data being stored can be accessed using JavaScript, which gives us the ability to leverage client-side scripting to do many things that have traditionally involved server-side programming and relational databases. In this Assingment, I used Web Storage objects:
 
-### *JavaScript Cookies
+* ### JavaScript Cookies
 
 Cookies are data, stored in small text files, on our computer.
 
@@ -35,7 +32,7 @@ Cookies are saved in name-value pairs like:
 username = Amal Shalabi
 ```
 
-### *localStorage
+* ### localStorage
 localStorage is similar to sessionStorage, except that while data stored in localStorage has no expiration time, data stored in sessionStorage gets cleared when the page session ends — that is, when the page is closed.
 
 #### The keys and the values are always strings (note that, as with objects, integer keys will be automatically converted to strings).
