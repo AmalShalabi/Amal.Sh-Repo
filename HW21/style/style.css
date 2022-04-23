@@ -1,0 +1,74 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+* {
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    font-family:'Poppins',sans-serif
+}
+
+.container{
+    text-align: center;
+    display: flex;
+   flex-direction: column;
+   width: 100%;
+   justify-content: center;
+}
+
+button{
+    background-color:dodgerblue;
+    color: white;
+    border-radius: 0.3em;
+    padding: 0.65em 1.5em;
+    border: 0.2em solid dodgerblue;
+    margin: 0.2em 0.1em;
+    font-size: 0.9em;
+    
+}
+
+button:hover{
+    background-color: rgb(13, 223, 58);
+    color: white;
+    border: rgb(13, 223, 58) solid 0.1em;
+    padding: 1em 1.5em;
+    cursor: pointer;
+}
+
+input{
+    background-color: lightgoldenrodyellow;
+    border-radius: 1em;
+    padding: 1em;
+    margin: 0.2em 0.1em;
+    margin: 0.5em 0;
+
+}
+input:hover{
+    background-color: rgb(171, 206, 168);
+}
+
+.cookies{
+    background-color:rgb(6, 30, 53);
+    padding: 0.5em 0 ;
+}
+.storage{
+    background-color: rgb(67, 64, 68);
+    padding: 0.5em 0 ;
+}
+.challenge{
+    background-color: rgb(165, 11, 93);
+    padding: 0.5em 0 ;
+
+}
+
+h2{
+    color: white;
+    font-size: 2em;
+    font-weight: lighter;
+    
+}
+span{
+    font-weight: bold;
+    color: yellow;
+}
+
