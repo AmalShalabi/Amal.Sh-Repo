@@ -4,13 +4,13 @@
 
  ### The repo contains:
 
-* ### html
+* ### 1-HTML
   This file contains the base HTML code that has all the elements defined for the webpage.
-* ### CSS
+* ### 2-CSS
 This file contains the CSS styles that are needed for styling the HTML elements in the webpage. The styles are self-explanatory and you are free to use or change these styles according to your preference.
-### I set CSS style only to localsorage part. 
+#### I set CSS style only to localsorage part
 
-* ### Javascript
+* ### 3- Javascript
 There are 2 files contains the JavaScript code  . Just The Localstorage file is linked with html file.
 
 
