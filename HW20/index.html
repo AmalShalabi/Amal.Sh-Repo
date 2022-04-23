@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/HW20/style/style.css">
+    <title>Grades</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo">Stam<span>College</span></div>
+        <h1>Explanation of Grading System</h1>
+        <div class="inputbox">
+            <input type="text" id="student_name" placeholder="Student's Name">
+            <input type="text" name="" id="student_grade" placeholder="Student's Grade">
+            <div class="btn"> <button id="check" onclick="GettingData()">Check</button>
+            </div>
+        </div>
+        <div class="cards">
+            <table>
+                <thead>
+                    <tr>
+                        <td><label>Averege</label></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="avg">0</td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <td><label>Total Students</label></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td id="total">0</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+
+        <div class="main">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>grade</td>
+                    </tr>
+                </thead>
+                <tbody id="main_Table">
+
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <script src="/HW20/js/script.js"></script>
+</body>
+
+</html>

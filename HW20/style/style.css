@@ -1,0 +1,200 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap");
+body {
+  background: url(/HW20/style/images/swarthmore-college-Eric-Behrens-flickr-5706ffe35f9b581408d48cb3.jpg) repeat;
+  font-family: 'Poppins', sans-serif;
+}
+
+.container {
+  margin: 30px;
+  padding: 2em 0;
+  background-color: #ffffff;
+  opacity: 0.96;
+  position: relative;
+  text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+h1 {
+  color: blue;
+  text-shadow: black 1px 2px;
+}
+
+.inputbox {
+  margin-top: 2em;
+  text-align: center;
+}
+
+input {
+  background-color: #abcddd;
+  padding: 0.8em 0.8em;
+  margin-left: 2.1em;
+  border-radius: 5px;
+  text-align: center;
+  color: #0f0122;
+  font-size: 1.1em;
+  font-weight: bolder;
+}
+
+.btn {
+  position: relative;
+}
+
+button {
+  background-color: darkred;
+  padding: 1em;
+  color: #ffffff;
+  margin: 1em -1em;
+  font-weight: bold;
+  position: absolute;
+  right: -2px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: royalblue;
+  font-size: 1.1em;
+}
+
+.logo {
+  top: 6px;
+  left: 15px;
+  position: absolute;
+  font-weight: bold;
+  font-size: 1.2em;
+  cursor: pointer;
+}
+
+.logo span {
+  color: blue;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-align: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.cards {
+  margin: 3em;
+  padding: .3em 1em;
+  border-radius: 20px;
+  font-size: 1.3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.cards table {
+  border: 2px solid #1261f3;
+  margin-left: 4em;
+  margin-right: 4em;
+}
+
+.cards table thead {
+  background-color: blue;
+  color: #ffffff;
+}
+
+.cards table thead td {
+  padding: 0.2em;
+  margin: 0 1em;
+}
+
+.main {
+  border-radius: 20px;
+  font-size: 1.3em;
+}
+
+.main table {
+  border: 2px solid #81074a;
+}
+
+.main table thead {
+  background-color: #81074a;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main table thead tr {
+  width: 450px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+.main table tbody {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main table tbody td {
+  border-bottom: #9c9090 2px solid;
+  color: #2c0781;
+  display: inline-block;
+  padding: 0 3.1em;
+}
+
+.container,
+.iputbox,
+table,
+h1 {
+  -webkit-animation: fadeIn 2s forwards;
+          animation: fadeIn 2s forwards;
+}
+
+@-webkit-keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-2em);
+            transform: translateY(-2em);
+  }
+  to {
+    opacity: 0.8;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    -webkit-transform: translateY(-2em);
+            transform: translateY(-2em);
+  }
+  to {
+    opacity: 0.8;
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+/*# sourceMappingURL=style.css.map */
