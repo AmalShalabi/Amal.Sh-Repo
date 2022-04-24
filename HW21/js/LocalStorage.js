@@ -99,14 +99,14 @@ function infoStorage() {
     let phone = document.getElementById("phone1");
 
     if (
-        checkName(name)||
+        checkName(!name)||
         name.value.length < 3 ||
             name.value.length >= 30 ||
             name.value == ""
     ) {
         alert("Invaled Name !")
     } else if (
-        checkEmail(email) ||
+        checkEmail(!email) ||
         email.value.length < 3 ||
         email.value.length >= 30 ||
         email.value == ""
@@ -114,7 +114,7 @@ function infoStorage() {
         alert("Invalid Email Adress!")
     }
     else if (
-        checkPhone(phone) ||
+        checkPhone(!phone) ||
         phone.value.length < 3 ||
         phone.value.length >= 30 ||
         phone.value == ""
