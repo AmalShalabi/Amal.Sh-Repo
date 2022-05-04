@@ -30,13 +30,9 @@ To install <amal-profile>, follow these steps:
 
 Use Linux and macOS:
 ```
-<command>
+git clone https://github.com/Fullstack-Alfanar/amal-profile.git
 ```
 
-Windows:
-```
-<command>
-```
 
 ## Contact
 

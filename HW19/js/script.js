@@ -4,7 +4,9 @@ function gcollege() {
     let data = [];
     data[0] = document.getElementById("sname");
     data[1] = document.getElementById("sgrade");
+
     let Avg_s = document.getElementById("avg_students");
+
     let Count_s = document.getElementById("num_students");
     let tables = document.getElementById("stable");
 
