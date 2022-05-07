@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/style.css">
+    <title>College</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="logo"><h5><span>stam</span>College</h5></div>
+        <h1>Explanation of Grading System</h1>
+        <div class="inputbox">
+            <input id="sname" type="text">
+            <input id="sgrade" type="text">
+            <button id="btn">Check</button>
+        </div>
+        <div class="cards">
+            <table>
+                <thead>
+                    <tr>
+                        <td><label>Averege</label></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label id="avg">0</label></td>
+                    </tr>
+                </tbody>
+            </table>
+            <table>
+                <thead>
+                    <tr>
+                        <td><label>Total</label></td>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><label id="total">0</label></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="main">
+            <table>
+                <thead>
+                    <tr>
+                        <td>Name</td>
+                        <td>grade</td>
+                    </tr>
+                </thead>
+                <tbody id="maintable"></tbody>
+            </table>
+        </div>
+
+        <div class="clock">
+            <span id="hours">00</span>
+            <span>:</span>
+            <span id="minutes">00</span>
+            <span>:</span>
+            <span id="seconds">00</span>
+            <span id="session">AM</span>
+        </div>
+        <p id="image"></p>
+    </div>
+
+    <script src="/js/script.js"></script>
+</body>
+
+</html>
