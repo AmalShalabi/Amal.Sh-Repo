@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: blue;
+    font-size: 1.5em;
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    color: blue;
+    text-align: center;
+    padding: 0.5em;
+}
+.container{
+    background-color: aliceblue;
+    opacity: 0.8;
+    padding: 1em;
+    position: relative;
+    border-radius: 0.5em;
+}
+
+.logo{
+    position: absolute;
+    top: 0;
+    left: 8px;
+}
+h5 span{
+    color: blue;
+}
+input{
+    background-color: rgb(218, 212, 129);
+    padding: 1.1em;
+    margin-left: 0.8em;
+    border-radius: 0.4em;
+}
+
+#btn{
+    background-color: rgb(100, 9, 9);
+    color: white;
+    font-weight: bolder;
+    border-radius: 0.4em;
+    padding: 1em;
+    margin: 0.5em;
+}
+.clock{
+    padding: 2em;
+    color: rgb(247, 250, 235);
+    font-weight: bold;
+    position: absolute;
+    top: 140px;
+    right: -200px;
+    transform: translate(50%, -50%);
+    font-size: 2em;
+}
+.cards{
+    display: flex;
+    justify-content:space-around;
+    text-align: center;
+    margin-top: 2em;
+}
+
+.cards table{
+    border: 1px blue solid;
+}
+
+.cards table thead{
+    background-color: blue;
+    color: white;
+
+
+}
+.cards table thead label{
+    padding: 1em;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    margin-top: 2em;
+}
+.main table {
+    border: 1px solid purple;
+    width: 100%;
+    text-align: center;
+}
+
+.main table thead{
+    background-color: purple;
+    color: white;
+    width: 100%;
+}
+
+.container,
+.iputbox,
+table,
+h1 {
+  animation: fadeIn 2s forwards;
+}
+
+@keyframes fadeIn {
+
+  from {
+    opacity: 0;
+    transform: translateY(-2em)
+  }
+
+  to {
+    opacity: 0.8;
+    transform: translateY(0)
+  }
+}
