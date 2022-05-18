@@ -2,14 +2,13 @@ let sum = 0, counter = 0;
 const arr = [];
 document.getElementById("btn").addEventListener("click", fillData);
 //adding img
-let iamge=document.getElementById("image")
-let img = document.createElement("img");
-document.body.appendChild(img);
-img.setAttribute("src", "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Moodle-logo.svg/1200px-Moodle-logo.svg.png");
+const img = document.createElement("img");
+img.src = "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Moodle-logo.svg/1200px-Moodle-logo.svg.png";
 img.setAttribute("width", "280px");
 img.setAttribute("height", "150px");
 img.setAttribute("alt", "moodle logo");
-img.textContent=image;
+document.body.appendChild(img);
+
 //addin a digital clock
 function displayTime(){
     var dateTime = new Date();
@@ -61,8 +60,8 @@ function fillData() {
         arr.push(obj);
         localStorage.setItem("data", JSON.stringify(arr));
     }
-    sname = "";
-    sgrade = "";
+    sname.value = "";
+    sgrade.value = "";
 }
 
 function fillTable(name, grade) {
