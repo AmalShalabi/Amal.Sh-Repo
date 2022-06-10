@@ -1,44 +1,34 @@
-# Amal.Sh-profile
-Made my first website as developer. It was very helpful to see a sort of real-life sample instead of those simplified versions for beginners!
+## Hi, I'm Amal Shalabi  👋
+[![Linkedin Badge](https://img.shields.io/badge/-amalshalabi-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/amal-shalabi-/)](https://www.linkedin.com/in/amal-shalabi-/) 
+[![Gmail Badge](https://img.shields.io/badge/-mouni.shalaby@gmail.com-c14438?style=flat-square&logo=Gmail&logoColor=white&link=mailto:minal.vaity95@gmail.com)](mailto:mouni.shalaby@gmail.com)
 
-First I wrote the HTML code to define the structure and contents of my web page – where things go, how they are laid out, and what’s on the page. Then I wrote  the CSS/SASS  to define the styling of a web page and the elements on it. At the end, I made it responsive website that will work on all devices, PC, laptop, tablet, and phone.
-	
-TABLE OF CONTENTS: SKILLS I NEEDED TO DESIGN AND DEVELOP MY WEBPAGE:
+<!--
+**AmalShalabi/AmalShalabi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
+Here are some ideas to get you started:
 
-*	HTML/CSS
-*	JavaScript
-*	Testing/Debugging:
-*	Git/Version Control
-
-HTML Layout Techniques:
-There are four different techniques to create multicolumn layouts. Each technique has its pros and cons:
-*	CSS framework
-*	CSS float property
-*	CSS flexbox
-*	CSS grid
-
-
-### I used :
-1-  CSS Flexbox Layout that ensures that elements behave predictably when the page layout must accommodate different screen sizes and different display devices.
-2- CSS Grid Layout that offers a grid-based layout system, with rows and columns, making it easier to design web pages without having to use floats and positioning.
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
+## I'm a Microbiologist with MSc degree , A digital marketing specialist, and Student Developer student!!
 
 
-## Installing <amal-profile>
-
-To install <amal-profile>, follow these steps:
-
-Use Linux and macOS:
-```
-git clone https://github.com/Fullstack-Alfanar/amal-profile.git
-```
+## About me 
+- Front-end development using **HTML, Javascript,CSS,Bootstrap**.
+- **Wix,Canva & Figma Expert**:Worked on the development and implemntation of a new online markrting straegy to increase sales and brand awareness.
+  Evaluated all digital marketing camaigns,completed weekly reports, and pro-actively participated in team meeatings with Mrketing Managers and Executives.
+- **SEO specialist**:A decision maker, with the ability to prioritize and develop relevant and engaging content. You know the old adage, “Content is king?” well, definitely i'm  placing increasing value on quality content – which will invariably include keyword or phrases that increases traffic to a site.
 
 
-## Contact
+- 🌱 I’m currently learning everything !
+- 👯 I’m looking to collaborate with other content creators
+- 🥅 2022 Goals: Learn more about codding
 
-
-If you want to contact me you can reach me at <mouni.shalaby@gmail.com>.
-
-
-
-
+- 📫 How to reach me: mouni.shalaby@gmail.com
+- 🎯 Portfolio site: [Amal-Adv](https://www.amal-adv.com/)
