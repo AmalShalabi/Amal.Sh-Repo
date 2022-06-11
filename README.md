@@ -16,7 +16,7 @@ Here are some ideas to get you started:
 - 😄 Pronouns: ...
 - ⚡ Fun fact: ...
 -->
-## I'm a Microbiologist with MSc degree , A digital marketing specialist, and Student Developer student!!
+## I'm a Medical Laboratory Scientist with MSc degree , A digital marketing specialist, and Student Developer .
 
 
 ## About me 
