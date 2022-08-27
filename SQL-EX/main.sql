@@ -16,7 +16,7 @@ INSERT INTO bookQ1 VALUES (1, 'The Time Travelers Wife', 'English',546 ),
                         (8,'Eat Pray Love','English',352 ),
                         (9,'Before I Go to Sleep','English',368),
                         (10,'Me Before You','English',480);
--------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 CREATE TABLE studentsQ2 (
   id varchar(9) PRIMARY KEY,
   SName varchar(20),
